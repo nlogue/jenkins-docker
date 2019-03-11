@@ -9,3 +9,5 @@ RUN apt update
 RUN apt install -y maven
 
 USER jenkins
+
+ECHO what about ye?
