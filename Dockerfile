@@ -1,4 +1,4 @@
-FROM jenkins/jenkins
+FROM jenkins/jenkins:lts
 
 LABEL project="installing maven on jenkins images"
 
