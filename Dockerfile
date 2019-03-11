@@ -6,7 +6,6 @@ USER root
 
 
 RUN apt update
-RUN apt install
-RUN apt install -y maven 
+RUN apt install -y maven
 
-CMD echo Maven Installed
+USER jenkins
